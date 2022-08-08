@@ -14,5 +14,6 @@ class Coordenada:
 
 if __name__ == '__main__':
     coordenada_one =  Coordenada(2,8)
-    coordenada_two = Coordenada(3,9)
-    print(coordenada_one.distancia(coordenada_two))
+    coordenada_two = Coordenada(2,9)
+    #print(coordenada_one.distancia(coordenada_two))
+    print(isinstance(coordenada_one,Coordenada))
