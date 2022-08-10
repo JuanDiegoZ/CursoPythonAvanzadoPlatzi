@@ -17,3 +17,6 @@ if __name__ == '__main__':
     coordenada_two = Coordenada(2,9)
     #print(coordenada_one.distancia(coordenada_two))
     print(isinstance(coordenada_one,Coordenada))
+
+
+    

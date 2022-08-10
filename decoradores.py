@@ -65,11 +65,18 @@ random_func()
 def suma(a : int, b:int) -> int:
     return a + b
 
+@execution_time
 def saludo(nombre ="cesar"):
-    print("Hola" + nombre)
+    print("Hola " + nombre)
 
 suma(5,5,)
 saludo("Juan")
+
+
+
+
+
+
 
 
 

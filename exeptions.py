@@ -10,3 +10,5 @@ lista = list(range(10))
 divisor = 0
 
 print(list_div(lista,divisor))
+
+
