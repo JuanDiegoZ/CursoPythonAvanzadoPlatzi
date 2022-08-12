@@ -5,8 +5,7 @@ def ordenamiento_mezcla(lista: list) -> list:
         middle = len(lista)//2
         izquierda = lista[:middle]
         derecha = lista[middle:]
-        print(izquierda)
-        print(derecha)
+
 
         ordenamiento_mezcla(izquierda)
         ordenamiento_mezcla(derecha)
