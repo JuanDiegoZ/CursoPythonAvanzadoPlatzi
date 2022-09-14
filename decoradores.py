@@ -46,6 +46,9 @@ print(mensaje('cesar'))
 #Programando decoradores. decorador para ver cuanto tiempo se demora en ejecutar una funcion.
 
 def execution_time(func):
+    """
+    *args,**kwargs, no importa la cantidad de argumentos los va resiivr para esto se usan, estos 2."
+    """
     def wrapper(*args,**kwargs):
         initial_time = datetime.now()
         func(*args,**kwargs)
@@ -63,7 +66,7 @@ random_func()
 
 @execution_time
 def suma(a : int, b:int) -> int:
-    return a + b
+    return a + b``
 
 @execution_time
 def saludo(nombre ="cesar"):

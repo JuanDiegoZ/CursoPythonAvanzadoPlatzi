@@ -1,5 +1,8 @@
 import random
-def insertion_short(lista : list) -> bool:
+def insertion_short(lista : list) -> list:
+    """
+    Organiza una arreglo mediante el algoritmo de insertion short.
+    """
     for i in range (1,len(lista)):
         iter_actual = lista[i]
         j = i - 1
@@ -11,6 +14,7 @@ def insertion_short(lista : list) -> bool:
         lista[j + 1 ] = iter_actual
 
     return lista
+    
     
 
             

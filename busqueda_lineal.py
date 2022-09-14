@@ -14,3 +14,7 @@ if __name__ == '__main__':
     lista = [random.randint(0,100) for i in range(tamanno_lista)]
     print (lista)
     print(busqueda_lineal(lista,objetivo))
+
+
+
+
